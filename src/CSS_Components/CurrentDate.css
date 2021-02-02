@@ -1,0 +1,24 @@
+h4 {
+  font-weight: bolder;
+}
+.city-info {
+  color: #4f8a8b;
+}
+
+.todays-icon {
+  width: 75px;
+}
+
+.temperature-number {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.weather-temperature .active {
+  color: #4f8a8b;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
