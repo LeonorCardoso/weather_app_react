@@ -1,22 +1,37 @@
 h4 {
   font-weight: bolder;
+  font-size: 30px;
+}
+
+h5 {
+  font-weight: bolder;
 }
 .city-info {
   color: #4f8a8b;
 }
 
 .todays-icon {
-  width: 75px;
+  position: relative;
+}
+
+.temperature {
+  position: relative;
+  top: -20px;
 }
 
 .temperature-number {
-  font-size: 30px;
-  font-weight: normal;
+  font-size: 45px;
+  display: inline;
 }
 
 .weather-temperature .active {
   color: #4f8a8b;
   cursor: default;
+}
+
+.units {
+  position: relative;
+  top: -20px;
 }
 
 .weather-temperature .active:hover {

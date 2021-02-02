@@ -17,18 +17,24 @@ export default function CityInfo() {
         <div className="col-5">
           <h4 id="city">{weatherData.city}</h4>
           <h5 className="weather-temperature">
+            <span>
             <ReactAnimatedWeather
               icon="CLEAR_DAY"
               color="#fbd46d"
-              size={50}
+              size={64}
               animate={true}
             />
-            <span id="temperature" className="temperature-number">
-              {weatherData.temperature}
             </span>
-            <a href="/">°C</a>
-            <span>|</span>
-            <a href="/">°F</a>
+            <span className="temperature">
+              <span id="temperature" className="temperature-number">
+                {weatherData.temperature}
+              </span>
+                <span className="units">
+                <a href="/">°C</a>
+                <span>|</span>
+                <a href="/">°F</a>
+              </span>
+            </span>
           </h5>
         </div>
         <div class="col-5">
