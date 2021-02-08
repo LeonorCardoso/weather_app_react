@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./App.css";
 import WeatherApp from "./WeatherApp";
 import Footer from "./Components/Footer";
+import "./App.css";
+
 
 export default function App() {
   return (
