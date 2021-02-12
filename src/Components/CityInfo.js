@@ -20,7 +20,7 @@ export default function CityInfo() {
                   color="#fbd46d"
                   size={64}
                   animate={true}
-                />, 
+            />, 
     });
   }
 
@@ -56,7 +56,7 @@ export default function CityInfo() {
     );
   } else {
     const apiKey = "58ce3f6986fa88fa9731f046fe82bae3";
-    let city = "Lisbon";
+    let city = "Paris";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
 
