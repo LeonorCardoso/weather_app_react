@@ -2,6 +2,11 @@ h4 {
   font-weight: bolder;
   font-size: 30px;
 }
+.current-date {
+  color: #4f8a8b;
+  font-weight: 600;
+  margin-top: 5px;
+}
 
 .city-info {
   color: #4f8a8b;
