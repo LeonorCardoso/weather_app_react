@@ -1,13 +1,5 @@
-.forecast-time {
-  margin: 3px 1px;
-  background: #ffefc3;
-  border: 1px solid #fbd46d;
-  width: 25em;
-  display: inline-block;
-  border-radius: 4px;
-  padding: 5px;
-}
-
-.forescast-icon {
-  width: 50px;
+.WeatherForecast canvas {
+  width: 40px;
+  display: block;
+  margin: 4px auto;
 }

@@ -1,5 +1,6 @@
 import React, { useState }  from "react";
 import CityInfo from "./CityInfo.js";
+import Forecast from "./Forecast";
 import axios from "axios";
 import "../CSS_Components/SearchWeather.css";
 
@@ -47,11 +48,11 @@ export default function SearchWeather(props) {
                   onChange={updateCity}
               />
               <input type="submit" value="Search" className="other-city" />
-              <button type="button">
-              <i className="fas fa-map-marker-alt"></i>
-              </button>
             </form>
       <CityInfo data={weatherData} />
+      <br />
+      <br />
+      <Forecast city={weatherData.city} />
     </div> 
   );} else {
     search();

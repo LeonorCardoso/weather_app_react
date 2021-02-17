@@ -19,7 +19,7 @@ export default function CityInfo(props) {
                 <WeatherTemperature celsius={props.data.temperature} />
               </h5>
             </div>
-            <div class="col-5">
+            <div className="col-5">
               <h5>
                 Humidity:{props.data.humidity}%
                 <br />
