@@ -12,30 +12,11 @@ h4 {
   color: #4f8a8b;
 }
 
+.city {
+  margin: 0px;
+}
+
 .todays-icon {
   position: relative;
-}
-
-.temperature {
-  position: relative;
-  top: -20px;
-}
-
-.temperature-number {
-  font-size: 45px;
-  display: inline;
-}
-
-.weather-temperature .active {
-  color: #4f8a8b;
-  cursor: default;
-}
-
-.units {
-  position: relative;
-  top: -20px;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
+  bottom: -5px;
 }

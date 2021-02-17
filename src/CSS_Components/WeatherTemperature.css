@@ -1,0 +1,14 @@
+.temperature {
+  position: relative;
+  top: -20px;
+}
+
+.temperature-number {
+  font-size: 45px;
+  display: inline;
+}
+
+.units {
+  position: relative;
+  top: -20px;
+}
